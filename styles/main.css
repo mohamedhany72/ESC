@@ -448,6 +448,7 @@ header p{
 footer{
     text-align: center;
     padding: 30px ;
+    padding-bottom: 75px;
     background: #2d3436;
     color: #fff;
 }
@@ -457,7 +458,11 @@ footer a{
 footer a:hover, footer a:focus{
     color: #dfe6e9;
 }
-
+@media only screen and (min-width:768px){
+    footer{
+        padding-bottom: 30px;
+    }
+}
 
 
 /*--------------------------------------------- login modal ---------------------------------------------*/
